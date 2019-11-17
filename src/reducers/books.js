@@ -1,13 +1,6 @@
 const initialState = {
     isReady: false,
-    books: [
-        {
-            id: 0,
-            name: 'Python для чайників',
-            title: 'Мюллер Дж.П.',
-            year: 2019
-        }
-    ]
+    books: null
 };
 
 export default (state = initialState, action) => {
