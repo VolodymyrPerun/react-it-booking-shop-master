@@ -29,3 +29,4 @@ yarn-error.log*
 .idea/react-it-booking-shop-master.iml
 .idea/vcs.xml
 .idea/inspectionProfiles/
+*.xml
