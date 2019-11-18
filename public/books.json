@@ -1,173 +1,209 @@
 [
-    {
-      "id": 0,
-      "title": "Вивчаємо JavaScript: керівництво по створенню сучасних веб-сайтів",
-      "author": "Этан Браун",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-7.jpg?raw=true",
-      "price": 495,
-      "year": 2018,
-      "rating": 3
-    },
-    {
-      "id": 1,
-      "title": "Vue.js в дії",
-      "author": "Ерік Хенчетт, Лістуон Бенджамін",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-2.jpg?raw=true",
-      "price": 415,
-      "year": 2018,
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "title": "Мова програмування C, 2-е видання",
-      "author": "Брайан У. Керніган, Денніс М. Рітчі",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-3.jpg?raw=true",
-      "price": 495,
-      "year": 2016,
-      "rating": 4
-    },
-    {
-      "id": 3,
-      "title": "Мова програмування C ++. Лекції і вправи",
-      "author": "Стівен Прата",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-5.jpg?raw=true",
-      "price": 1080,
-      "year": 2018,
-      "rating": 3
-    },
-    {
-      "id": 4,
-      "title": "Автоматизація рутинних завдань за допомогою Python: практичне керівництво для початківців",
-      "author": "Ел Свейгарт",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-4.jpg?raw=true",
-      "price": 590,
-      "year": 2018,
-      "rating": 1
-    },
-    {
-      "id": 5,
-      "title": "Секрети JavaScript ніндзя, 2-е видання",
-      "author": "Джон Резіг, Беер Бібо, Джосіп Марас",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-6.jpg?raw=true",
-      "price": 818,
-      "year": 2016,
-      "rating": 2
-    },
-    {
-      "id": 6,
-      "title": "JavaScript: кишеньковий довідник",
-      "author": "Девід Фленаган",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-0.jpg?raw=true",
-      "price": 284,
-      "year": 2019,
-      "rating": 4
-    },
-    {
-      "id": 7,
-      "title": "iPhuck 10",
-      "author": "Виктор Пелевин",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-3.jpg?raw=true",
-      "price": 246,
-      "year": 2019,
-      "rating": 0
-    },
-    {
-      "id": 8,
-      "title": "Чистий код",
-      "author": "Роберт Мартін",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-8.jpg?raw=true",
-      "price": 320,
-      "year": 2019,
-      "rating": 5
-    },
-    {
-      "id": 9,
-      "title": "Чиста архітектура",
-      "author": "Роберт Мартін",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-9.jpg?raw=true",
-      "price": 360,
-      "year": 2019,
-      "rating": 5
-    },
-    {
-      "id": 10,
-      "title": "Розробка вимог до програмного забезпечення. Керівництво",
-      "author": "Карл Віггерс, Джой Бітті",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-10.jpg?raw=true",
-      "price": 829,
-      "year": 2014,
-      "rating": 1
-    },
-    {
-      "id": 11,
-      "title": "Python на прикладах. Практичний курс з програмування",
-      "author": "Олексій Васильєв",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-11.jpg?raw=true",
-      "price": 470,
-      "year": 2019,
-      "rating": 5
-    },
-    {
-      "id": 12,
-      "title": "Самовчитель Java з прикладами і програмами. Самовчитель",
-      "author": "Васильєв А.Г. та ін.",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-12.jpg?raw=true",
-      "price": 309,
-      "year": 2017,
-      "rating": 4
-    },
-    {
-      "id": 13,
-      "title": "Python для чайників, 2-е видання",
-      "author": "Джон Пол Мюллер",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-13.jpg?raw=true",
-      "price": 346,
-      "year": 2019,
-      "rating": 4
-    },
-    {
-      "id": 14,
-      "title": "C # для чайників",
-      "author": "Джон Пол Мюллер, Білл Семпф, Чак Сфер",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-14.jpg?raw=true",
-      "price": 418,
-      "year": 2019,
-      "rating": 3
-    },
-    {
-      "id": 15,
-      "title": "Вивчаємо PHP 7: керівництво по створенню інтерактивних веб-сайтів",
-      "author": "Девід Скляр",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-16.jpg?raw=true",
-      "price": 590,
-      "year": 2019,
-      "rating": 4
-    },
-    {
-      "id": 17,
-      "title": "Spring в дії",
-      "author": "Воллс Крейг",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-15.jpg?raw=true",
-      "price": 1245,
-      "year": 2015,
-      "rating": 4
-    },
-    {
-      "id": 18,
-      "title": "React і Redux: функціональна веб-розробка",
-      "author": "Бенкс А., Порселло Е.",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-17.jpg?raw=true",
-      "price": 595,
-      "year": 2018,
-      "rating": 5
-    },
-    {
-      "id": 19,
-      "title": "React швидко. Веб-додатки на React, JSX, Redux і GraphQL",
-      "author": "Мардан А.",
-      "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-3.jpg?raw=true",
-      "price": 843,
-      "year": 2019,
-      "rating": 5
-    }
-  ]
+  {
+    "id": 0,
+    "title": "Вивчаємо JavaScript: керівництво по створенню сучасних веб-сайтів",
+    "author": "Этан Браун",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-7.jpg?raw=true",
+    "price": 495,
+    "year": 2018,
+    "rating": 3
+  },
+  {
+    "id": 1,
+    "title": "Vue.js в дії",
+    "author": "Ерік Хенчетт, Лістуон Бенджамін",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-2.jpg?raw=true",
+    "price": 415,
+    "year": 2018,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Мова програмування C, 2-е видання",
+    "author": "Брайан У. Керніган, Денніс М. Рітчі",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-3.jpg?raw=true",
+    "price": 495,
+    "year": 2016,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Мова програмування C ++. Лекції і вправи",
+    "author": "Стівен Прата",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-5.jpg?raw=true",
+    "price": 1080,
+    "year": 2018,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "Автоматизація рутинних завдань за допомогою Python: практичне керівництво для початківців",
+    "author": "Ел Свейгарт",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-4.jpg?raw=true",
+    "price": 590,
+    "year": 2018,
+    "rating": 1
+  },
+  {
+    "id": 5,
+    "title": "Секрети JavaScript ніндзя, 2-е видання",
+    "author": "Джон Резіг, Беер Бібо, Джосіп Марас",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-6.jpg?raw=true",
+    "price": 818,
+    "year": 2016,
+    "rating": 2
+  },
+  {
+    "id": 6,
+    "title": "JavaScript: кишеньковий довідник",
+    "author": "Девід Фленаган",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-0.jpg?raw=true",
+    "price": 284,
+    "year": 2019,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "title": "Angular для професіоналів",
+    "author": "Адам Фрімен",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-19.jpg?raw=true",
+    "price": 789,
+    "year": 2016,
+    "rating": 2
+  },
+  {
+    "id": 8,
+    "title": "Чистий код",
+    "author": "Роберт Мартін",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-8.jpg?raw=true",
+    "price": 320,
+    "year": 2019,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "title": "Чиста архітектура",
+    "author": "Роберт Мартін",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-9.jpg?raw=true",
+    "price": 360,
+    "year": 2019,
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "title": "Розробка вимог до програмного забезпечення. Керівництво",
+    "author": "Карл Віггерс, Джой Бітті",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-10.jpg?raw=true",
+    "price": 829,
+    "year": 2014,
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "title": "Python на прикладах. Практичний курс з програмування",
+    "author": "Олексій Васильєв",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-11.jpg?raw=true",
+    "price": 470,
+    "year": 2019,
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "title": "Самовчитель Java з прикладами і програмами. Самовчитель",
+    "author": "Васильєв А.Г. та ін.",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-12.jpg?raw=true",
+    "price": 309,
+    "year": 2017,
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "title": "Python для чайників, 2-е видання",
+    "author": "Джон Пол Мюллер",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-13.jpg?raw=true",
+    "price": 346,
+    "year": 2019,
+    "rating": 4
+  },
+  {
+    "id": 14,
+    "title": "C # для чайників",
+    "author": "Джон Пол Мюллер, Білл Семпф, Чак Сфер",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-14.jpg?raw=true",
+    "price": 418,
+    "year": 2019,
+    "rating": 3
+  },
+  {
+    "id": 15,
+    "title": "Вивчаємо PHP 7: керівництво по створенню інтерактивних веб-сайтів",
+    "author": "Девід Скляр",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-16.jpg?raw=true",
+    "price": 590,
+    "year": 2019,
+    "rating": 4
+  },
+  {
+    "id": 16,
+    "title": "Node.js в дії. 2-е видання",
+    "author": "Кантелон М., Хартер М., Головайчук T., Райлих Н.",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-19.jpg?raw=true",
+    "price": 578,
+    "year": 2018,
+    "rating": 5
+  },
+  {
+    "id": 17,
+    "title": "Spring в дії",
+    "author": "Воллс Крейг",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-15.jpg?raw=true",
+    "price": 1245,
+    "year": 2015,
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "title": "React і Redux: функціональна веб-розробка",
+    "author": "Бенкс А., Порселло Е.",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-17.jpg?raw=true",
+    "price": 595,
+    "year": 2018,
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "title": "React швидко. Веб-додатки на React, JSX, Redux і GraphQL",
+    "author": "Мардан А.",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-18.jpg?raw=true",
+    "price": 843,
+    "year": 2019,
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "title": "Вивчаємо PostgreSQL 10",
+    "author": "Салахалдін Джуба, Андрій Волков",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-20.jpg?raw=true",
+    "price": 1360 ,
+    "year": 2019,
+    "rating": 5
+  },
+  {
+    "id": 21,
+    "title": "Data Science. Інсайдерська інформація для новачків. Включаючи мову R",
+    "author": "Кеті О'Ніл, Рейчел Шатт",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-21.jpg?raw=true",
+    "price": 665,
+    "year": 2019,
+    "rating": 4
+  },
+  {
+    "id": 22,
+    "title": "Машинне навчання",
+    "author": "Хенрік Брінк, Джозеф Річардс, Марк Феверолф",
+    "image": "https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/book-22.jpg?raw=true",
+    "price": 1215,
+    "year": 2017,
+    "rating": 5
+  }
+]
