@@ -31,7 +31,8 @@ class App extends Component {
 }
 
 const mapStateToProps = ({ books }) => ({
-    books: books.items
+    books: books.items,
+    isReady: books.isReady
 });
 
 const mapDispatchToProps = dispatch => ({
