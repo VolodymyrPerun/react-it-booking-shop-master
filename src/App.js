@@ -5,6 +5,7 @@ import {Container} from "semantic-ui-react";
 import axios from 'axios';
 import MenuComponent from './components/Menu'
 import BookCard from "./components/BookCard";
+import {Card} from "semantic-ui-react";
 
 class App extends Component {
 
@@ -22,13 +23,13 @@ class App extends Component {
 
             <Container>
                 <MenuComponent/>
-                <ul>
+                <Card.Group itemsPerRow={4} stackable={true}
+                            doubling={true} centered={true} textAlign={'center'}>
                     {!isReady ? 'Завантаження...' : books.map(book => (
-                        <li>
                             <BookCard {...book}/>
-                        </li>
+
                     ))}
-                </ul>
+                </Card.Group>
             </Container>
 
         );
