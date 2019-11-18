@@ -6,11 +6,17 @@ const BookCard = ({title, author, price, image, year, rating}) => (
     <Card color={'red'} href={'#'}>
         <Image src={image} fluid={true}/>
         <Card.Content textAlign={'center'}>
-            <Card.Header><i>Назва книги:</i> {title}</Card.Header>
+            <Card.Header >
+                <Icon name={'book'} color={'olive'}/>
+                <i >Назва книги:</i> {title}
+            </Card.Header>
             <Card.Meta>
+                <Icon name={'calendar alternate outline'} color={'green'}/>
                 <span className='date'>Рік публікації: {year}</span>
             </Card.Meta>
             <Card.Description>
+                <Icon name={'user'} color={'teal'}/>
+                <Icon name={'pencil alternate'} color={'blue'}/>
                 Автор: {author}
             </Card.Description>
         </Card.Content>
