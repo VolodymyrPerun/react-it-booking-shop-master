@@ -17,7 +17,7 @@ const BookCard = ({title, author, price, image, year, rating}) => (
         <Card.Content extra textAlign={'center'}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-                <Icon name='uah'/>
+                <Icon name='money bill alternate outline' color={'blue'}/>
                 Ціна: {price} грн
             </a>
         </Card.Content>
