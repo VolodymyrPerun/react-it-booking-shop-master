@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {setBooks} from './actions/books';
+import { Container } from "semantic-ui-react";
 import axios from 'axios';
 import MenuComponent from './components/Menu'
+import BookCard from "./components/BookCard";
 
 class App extends Component {
 
@@ -18,16 +20,16 @@ class App extends Component {
 
         return (
 
-        <div>
+        <Container>
          <MenuComponent />
          <ul>
              {!isReady ? 'Завантаження...' : books.map( book => (
                      <li>
-                          <b>{book.title}</b> - {book.author}
+                          <BookCard {...book}/>
                      </li>
                 ))}
          </ul>
-        </div>
+        </Container>
 
         );
     }
