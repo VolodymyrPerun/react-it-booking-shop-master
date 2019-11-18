@@ -27,15 +27,15 @@ class App extends Component {
                             doubling={true} centered={true} textAlign={'center'}>
                     {!isReady ?
                         <Segment>
-                        <Dimmer active>
-                            <Loader size='large'>Завантаження...</Loader>
-                        </Dimmer>
-                        <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/loading.gif?raw=true' />
-                    </Segment>
+                            <Dimmer active>
+                                <Loader size='large'>Завантаження...</Loader>
+                            </Dimmer>
+                            <Image
+                                src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/loading.gif?raw=true'/>
+                        </Segment>
                         : books.map(book => (
                             <BookCard {...book}/>
-
-                    ))}
+                        ))}
                 </Card.Group>
             </Container>
 
