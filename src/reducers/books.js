@@ -12,13 +12,11 @@ export default (state = initialState, action) => {
                 books: [
                     action.payload]
             };
-        case 'ADD_BOOKS':
+        case 'SET_IS_READY':
             return {
                 ...state,
-                books: [
-                    ...state.books,
-                    action.payload]
-            };
+                isReady: action.payload
+            }
         default:
             return state
     }

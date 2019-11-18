@@ -6,20 +6,7 @@ class App extends Component {
     render() {
         const { books } = this.props.books;
         const { setBooks } = this.props;
-        const newBooks = [
-            {
-                id: 0,
-                name: 'Ефективний Spark. Масштабування і оптимізація' +
-                    ((new Date().getUTCDate().toString())
-                        + '/' + (new Date().getUTCMonth().toString())
-                        + '/' + (new Date().getUTCFullYear().toString())
-                        + ', ' + (new Date().getUTCHours().toString())
-                        + ':' + (new Date().getUTCMinutes().toString())
-                        + ':' + (new Date().getUTCSeconds().toString())),
-                title: 'Карау Х., Уоррен Р.',
-                year: 2018
-            }
-        ];
+       
 
         return (
 
