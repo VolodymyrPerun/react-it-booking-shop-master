@@ -1,41 +1,39 @@
 import React from 'react';
-import { menu } from 'semantic-ui-css'
+import { Menu, Popup, List, Button, Image } from "semantic-ui-react";
 
-const Menu = () => (
-<Menu>
+const MenuComponent = () => (
+      <Menu>
         <Menu.Item
           name='browse'
-          active={activeItem === 'browse'}
-          onClick={this.handleItemClick}
-        >
+       
+          onClick={this.handleItemClick}>
           Browse
         </Menu.Item>
 
         <Menu.Item
           name='submit'
-          active={activeItem === 'submit'}
-          onClick={this.handleItemClick}
-        >
+        
+          onClick={this.handleItemClick}>
           Submit
         </Menu.Item>
 
         <Menu.Menu position='right'>
           <Menu.Item
             name='signup'
-            active={activeItem === 'signup'}
-            onClick={this.handleItemClick}
-          >
+           
+            onClick={this.handleItemClick}>
             Sign Up
           </Menu.Item>
 
           <Menu.Item
             name='help'
-            active={activeItem === 'help'}
-            onClick={this.handleItemClick}
-          >
+         
+            onClick={this.handleItemClick}>
             Help
           </Menu.Item>
         </Menu.Menu>
-    </Menu>
+       </Menu>
 );
+
+export default MenuComponent;
 

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {setBooks} from './actions/books';
 import axios from 'axios';
+import MenuComponent from './components/Menu'
 
 class App extends Component {
 
@@ -17,6 +18,8 @@ class App extends Component {
 
         return (
 
+        <div>
+         <MenuComponent />
          <ul>
              {!isReady ? 'Завантаження...' : books.map( book => (
                      <li>
@@ -24,6 +27,7 @@ class App extends Component {
                      </li>
                 ))}
          </ul>
+        </div>
 
         );
     }
