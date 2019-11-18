@@ -1,27 +1,37 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {setBooks} from './actions/books';
+import axios from 'axios';
 
 class App extends Component {
-    render() {
-        const { books } = this.props.books;
+
+    componentWillMount() {
         const { setBooks } = this.props;
-       
+        axios.get('/books.json').then(({ data }) => {
+          setBooks(data);
+        });
+      }
+
+    render() {
+        const { books, isReady } = this.props;
 
         return (
 
-            <div className="container">
-                <div>
-                    <h1>{books[0].name}</h1>
-                    <button onClick={setBooks.bind(this, newBooks)}>Add Book</button>
-                </div>
-            </div>
+         <ul>
+             {!isReady ? 'Завантаження...' : books.map( book => (
+                     <li>
+                          <b>{book.title}</b> - {book.author}
+                     </li>
+                ))}
+         </ul>
+
         );
     }
+   
 }
 
-const mapStateToProps = state => ({
-    ...state
+const mapStateToProps = ({ books }) => ({
+    books: books.items
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -7,6 +7,7 @@
     "@svgr/webpack": "4.3.2",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
+    "axios": "^0.19.0",
     "babel": "^6.23.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
@@ -60,13 +61,12 @@
     "terser-webpack-plugin": "1.4.1",
     "ts-pnp": "1.1.4",
     "url-loader": "2.1.0",
-    "webpack": "4.41.0",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.1.1",
     "workbox-webpack-plugin": "4.3.1"
   },
   "devDependencies": {
-    "webpack": "^4.41.2",
+    "webpack": "^4.41.0",
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
