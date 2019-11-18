@@ -25,7 +25,7 @@ const BookCard = ({ title, author, price, image, year, rating }) => (
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>
                     <Icon name='uah' />
-                    Рейтинг: {rating}
+                    Рейтинг: {rating} / 5
                 </a>
             </Card.Content>
         </Card>
