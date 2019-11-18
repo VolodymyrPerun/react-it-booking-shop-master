@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import {Provider} from 'react-redux';
 import App from './App';
-import createStore from "./store/store";
 import 'semantic-ui-css/semantic.min.css'
+import createStore from "./store/store";
+import './index.scss';
 
 const store = createStore();
 
