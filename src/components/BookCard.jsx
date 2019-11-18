@@ -6,7 +6,7 @@ const BookCard = ({title, author, price, image, year, rating}) => (
     <Card color={'red'} href={'#'}>
         <Image src={image} fluid={true}/>
         <Card.Content textAlign={'center'}>
-            <Card.Header >
+            <Card.Header>
                 <Icon name={'book'} color={'olive'}/>
                 <i >Назва книги:</i> {title}
             </Card.Header>

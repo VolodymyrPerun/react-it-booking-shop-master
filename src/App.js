@@ -5,7 +5,7 @@ import {Container} from "semantic-ui-react";
 import axios from 'axios';
 import MenuComponent from './components/Menu'
 import BookCard from "./components/BookCard";
-import {Card} from "semantic-ui-react";
+import {Card, Segment, Loader, Dimmer, Image} from "semantic-ui-react";
 
 class App extends Component {
 
@@ -25,7 +25,14 @@ class App extends Component {
                 <MenuComponent/>
                 <Card.Group itemsPerRow={4} stackable={true}
                             doubling={true} centered={true} textAlign={'center'}>
-                    {!isReady ? 'Завантаження...' : books.map(book => (
+                    {!isReady ?
+                        <Segment>
+                        <Dimmer active>
+                            <Loader size='large'>Завантаження...</Loader>
+                        </Dimmer>
+                        <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/loading.gif?raw=true' />
+                    </Segment>
+                        : books.map(book => (
                             <BookCard {...book}/>
 
                     ))}

@@ -9,7 +9,7 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 items: action.payload,
-                isReady: true
+                isReady: false
             };
         case "SET_IS_READY":
             return {
