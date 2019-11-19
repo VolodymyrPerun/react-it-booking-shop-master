@@ -33,8 +33,8 @@ class App extends Component {
                             <Image
                                 src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/loading.gif?raw=true'/>
                         </Segment>
-                        : books.map(book => (
-                            <BookCard {...book}/>
+                        : books.map((book, i) => (
+                            <BookCard key={i} {...book}/>
                         ))}
                 </Card.Group>
             </Container>
