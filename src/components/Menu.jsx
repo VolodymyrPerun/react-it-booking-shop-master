@@ -4,20 +4,16 @@ import {Menu, Popup, List, Button, Image} from "semantic-ui-react";
 const MenuComponent = () => (
     <Menu>
         <Menu.Item name='browse'>
-            Browse
-        </Menu.Item>
-
-        <Menu.Item name='submit'>
-            Submit
+            Магазин книг
         </Menu.Item>
 
         <Menu.Menu position='right'>
             <Menu.Item name='signup'>
-                Sign Up
+                Всього: &nbsp; <b>0</b>грн.
             </Menu.Item>
 
             <Menu.Item name='help'>
-                Help
+                Корзина ( <b>0</b> )
             </Menu.Item>
         </Menu.Menu>
     </Menu>
