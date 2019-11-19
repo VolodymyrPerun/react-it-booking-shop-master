@@ -1,23 +1,26 @@
 import React from 'react';
 import {Card, Icon, Image} from "semantic-ui-react";
+import style from './BookCard.module.scss'
 
 const BookCard = ({title, author, price, image, year, rating}) => (
 
-    <Card color={'red'} href={'#'}>
-        <Image src={image} fluid={true}/>
+    <Card color={'red'} href={'#'} className={style.Card}>
+        <Image src={image} fluid={true} className={style.CardImg}/>
         <Card.Content textAlign={'center'}>
-            <Card.Header>
+            <Card.Header className={style.ItemName}>
                 <Icon name={'book'} color={'olive'}/>
-                <i >Назва книги:</i> {title}
+                <span><i>Назва книги: </i></span>{title}
             </Card.Header>
             <Card.Meta>
                 <Icon name={'calendar alternate outline'} color={'green'}/>
-                <span className='date'>Рік публікації: {year}</span>
+                <span className='date'>Рік публікації: </span>
+                <span className={style.dateNumber}>{year}</span>
             </Card.Meta>
             <Card.Description>
                 <Icon name={'user'} color={'teal'}/>
                 <Icon name={'pencil alternate'} color={'blue'}/>
-                Автор: {author}
+                <span>Автор: </span>
+                <span className={style.descriptionAuthor}>{author}</span>
             </Card.Description>
         </Card.Content>
         <Card.Content extra textAlign={'center'}>

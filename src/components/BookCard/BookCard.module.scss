@@ -1,0 +1,30 @@
+.Card {
+
+  .ItemName {
+    color: olivedrab !important;
+    font-size: 15px !important;
+    margin: 10px 0;
+
+    span {
+      color: #24688b !important;
+    }
+  }
+
+  .CardImg {
+    height: 50vh !important;
+  }
+
+  .dateNumber {
+    font-weight: bold;
+    color: limegreen !important;
+  }
+
+  .descriptionAuthor {
+    font-weight: bold;
+    color: lightseagreen !important;
+  }
+
+
+}
+
+

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Container} from "semantic-ui-react";
 import axios from 'axios';
-import MenuComponent from './Menu'
-import BookCard from "./BookCard";
+import MenuComponent from './Menu/Menu'
+import BookCard from "./BookCard/BookCard";
 import {Card, Segment, Loader, Dimmer, Image} from "semantic-ui-react";
 
 class App extends Component {
