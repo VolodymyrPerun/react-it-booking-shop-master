@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import {Provider} from 'react-redux';
-import App from './App';
+import App from './container/App';
 import 'semantic-ui-css/semantic.min.css'
 import createStore from "./store/store";
 import './index.scss';
