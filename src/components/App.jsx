@@ -3,6 +3,7 @@ import {Container} from "semantic-ui-react";
 import axios from 'axios';
 import MenuComponent from './Menu/Menu'
 import BookCard from "./BookCard/BookCard";
+import Filter from "../container/Filter";
 import {Card, Segment, Loader, Dimmer, Image} from "semantic-ui-react";
 
 class App extends Component {
@@ -15,12 +16,13 @@ class App extends Component {
     }
 
     render() {
-        const {books, isReady} = this.props;
+        const {books, isReady, setFilter} = this.props;
 
         return (
 
             <Container>
                 <MenuComponent/>
+                <Filter setFilter={setFilter}/>
                 <Card.Group itemsPerRow={4} stackable={true}
                             doubling={true} centered={true} textAlign={'center'}>
                     {!isReady ?
