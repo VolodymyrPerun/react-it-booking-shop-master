@@ -11,9 +11,9 @@ const BookCard = ({title, author, price, image, year, rating}) => (
                 <Icon name={'book'} color={'olive'}/>
                 <span><i>Назва книги: </i></span>{title}
             </Card.Header>
-            <Card.Meta>
+            <Card.Meta >
                 <Icon name={'calendar alternate outline'} color={'green'}/>
-                <span className='date'>Рік публікації: </span>
+                <span className={style.dataTitle}>Рік публікації: </span>
                 <span className={style.dateNumber}>{year}</span>
             </Card.Meta>
             <Card.Description>
@@ -25,16 +25,16 @@ const BookCard = ({title, author, price, image, year, rating}) => (
         </Card.Content>
         <Card.Content extra textAlign={'center'}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a className={style.price}>
                 <Icon name='money bill alternate outline' color={'blue'}/>
-                Ціна: {price} грн
+                Ціна: <span> {price}</span>  грн.
             </a>
         </Card.Content>
         <Card.Content extra textAlign={'center'}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a className={style.ratingTitle}>
                 <Icon name='star' color={'yellow'}/>
-                Рейтинг: {rating} / 5
+                Рейтинг:<span> {rating} </span> / 5
             </a>
         </Card.Content>
     </Card>

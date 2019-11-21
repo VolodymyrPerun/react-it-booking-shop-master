@@ -2,7 +2,7 @@ import React from 'react';
 import { Menu } from 'semantic-ui-react'
 
 const Filter = ({setFilter, filterBy}) =>
-      (<Menu >
+      (<Menu stackable={true}>
         <Menu.Item
           active={filterBy === 'all'}
           onClick={setFilter.bind(this, 'all')}

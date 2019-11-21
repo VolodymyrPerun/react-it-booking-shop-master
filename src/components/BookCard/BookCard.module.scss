@@ -12,21 +12,39 @@
   }
 
   .CardImg {
-    height: 60% !important;
     padding: 15px 0;
   }
 
+  .dataTitle  {
+      color: midnightblue !important;
+  }
+
   .dateNumber {
-    font-weight: bold;
+    font-weight: bold !important;
     color: limegreen !important;
   }
 
+  
   .descriptionAuthor {
     font-weight: bold;
     color: lightseagreen !important;
   }
 
+  .price {
+    color: black !important;
+
+    span {
+      color: orangered !important;
+      font-weight: bold;
+    }
+  }
+
+  .ratingTitle {
+    color: goldenrod !important;
+
+    span {
+      color: lightseagreen !important;
+    }
+  }
 
 }
-
-
