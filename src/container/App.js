@@ -8,9 +8,14 @@ import * as booksActions from '../actions/books';
 import App from '../components/App';
 import orderBy from 'lodash/orderBy';
 
-const sortBy = (books, filterBy) => {
+const sortBy = (books, filterBy, searchQuery) => {
+    books = books.filter(o => 
+        o.title.toLowerCase().indexOf(searchQuery.toLowerCase()) ||
+        o.author.toLowerCase().indexOf(searchQuery.toLowerCase())
+        );
 
     switch (filterBy) {
+        
         case 'all':
             return books;
         case 'rating':
@@ -30,9 +35,9 @@ const sortBy = (books, filterBy) => {
 }
 
 const mapStateToProps = ({
-    books
+    books, filter
 }) => ({
-    books: sortBy(books.items, books.filterBy),
+    books: books.items && sortBy(books.items, books.filterBy, filter.searchQuery),
     isReady: books.isReady
 });
 

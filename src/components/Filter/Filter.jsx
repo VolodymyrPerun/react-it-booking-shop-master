@@ -1,8 +1,8 @@
 import React from 'react';
-import { Menu } from 'semantic-ui-react'
+import { Menu, Input, Icon } from 'semantic-ui-react'
 
-const Filter = ({setFilter, filterBy}) =>
-      (<Menu stackable={true}>
+const Filter = ({setFilter, filterBy, searchQuery, setSearchQuery}) =>
+      (<Menu secondary stackable={true} pointing>
         <Menu.Item
           active={filterBy === 'all'}
           onClick={setFilter.bind(this, 'all')}
@@ -21,14 +21,17 @@ const Filter = ({setFilter, filterBy}) =>
           active={filterBy === 'price_hight'}
           onClick={setFilter.bind(this, 'price_hight')}
         >
-        Ціна(Дорогі)
+        Ціна
+        <Icon name={'arrow circle down'} />
         </Menu.Item>
     
         <Menu.Item
           active={filterBy === 'price_low'}
           onClick={setFilter.bind(this, 'price_low')}
+          
         >
-          Ціна(Дешеві)
+          Ціна  
+          <Icon name={'arrow circle up'} />
         </Menu.Item>
     
         <Menu.Item
@@ -44,7 +47,16 @@ const Filter = ({setFilter, filterBy}) =>
         >
           Рік публікації
         </Menu.Item>
-       
+
+        
+        <Menu.Item position='right' stackable={true}>
+         <Input icon='search'
+          onChange={
+           e => setSearchQuery(e.target.value)}
+            value={searchQuery}
+            placeholder='Пошук по книгам...' />
+        </Menu.Item>
+
       </Menu>
      );
  
