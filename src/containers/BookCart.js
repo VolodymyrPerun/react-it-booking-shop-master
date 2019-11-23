@@ -1,0 +1,16 @@
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as cartActions from '../actions/cart';
+import BookCart from '../components/BookCard/BookCard';
+
+const mapStateToProps = ({cart}) => ({
+    addedCount: 0,
+
+});
+
+const mapDispatchToProps = dispatch => ({
+    ...bindActionCreators(cartActions, dispatch)
+});
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(BookCart);

@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Container} from "semantic-ui-react";
 import axios from 'axios';
-import MenuComponent from './Menu/Menu'
-import BookCard from "./BookCard/BookCard";
-import Filter from "../container/Filter";
+import Menu from '../containers/Menu'
+import BookCard from "../containers/BookCart";
+import Filter from "../containers/Filter";
 import {Card, Segment, Loader, Dimmer, Image} from "semantic-ui-react";
 
 class App extends Component {
@@ -21,7 +21,7 @@ class App extends Component {
         return (
 
             <Container>
-                <MenuComponent/>
+                <Menu/>
                 <Filter setFilter={setFilter}/>
                 <Card.Group itemsPerRow={4} stackable={true}
                             doubling={true} centered={true} textAlign={'center'}>
