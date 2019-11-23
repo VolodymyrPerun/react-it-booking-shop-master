@@ -5,7 +5,7 @@ import BookCart from '../components/BookCard/BookCard';
 
 const mapStateToProps = ({cart}, {id}) => ({
     addedCount: cart.items.reduce(
-    (count, book) => count + (book.id === id ? 1 : 0),0)
+        (count, book) => count + (book.id === id ? 1 : 0), 0)
 });
 
 const mapDispatchToProps = dispatch => ({

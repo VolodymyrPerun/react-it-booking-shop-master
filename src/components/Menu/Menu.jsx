@@ -9,7 +9,7 @@ const CartComponent = ({title, id, image, removeFromCart}) => (
     <List selection divided animated verticalAlign='middle'>
         <List.Item>
             <List.Content floated='right'>
-                <Button onClick={removeFromCart.bind(this,id)}
+                <Button onClick={removeFromCart.bind(this, id)}
                         color={'red'}>Видалити</Button>
             </List.Content>
             <Image avatar src={image}/>
@@ -19,13 +19,13 @@ const CartComponent = ({title, id, image, removeFromCart}) => (
 );
 const MenuComponent = ({totalPrice, count, items}) => (
     <Menu>
-        <Menu.Item name='browse'>
-            <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/Logo.png?raw=true' className={style.logo}/>
-
+        <Menu.Item name='header' header={true} className={style.logo}>
+            <Image
+                src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/Logo.png?raw=true'
+            />
         </Menu.Item>
-        Магазин книг
         <Menu.Menu position='right'>
-            <Menu.Item name='signup'>
+            <Menu.Item name='price'>
                 Всього: &nbsp; <b>{totalPrice}</b>&nbsp; грн.
             </Menu.Item>
             <Popup
