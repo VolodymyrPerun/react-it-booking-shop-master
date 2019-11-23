@@ -3,9 +3,9 @@ import {bindActionCreators} from 'redux';
 import * as cartActions from '../actions/cart';
 import BookCart from '../components/BookCard/BookCard';
 
-const mapStateToProps = ({cart}) => ({
-    addedCount: 0,
-
+const mapStateToProps = ({cart}, {id}) => ({
+    addedCount: cart.items.reduce(
+    (count, book) => count + (book.id === id ? 1 : 0),0)
 });
 
 const mapDispatchToProps = dispatch => ({

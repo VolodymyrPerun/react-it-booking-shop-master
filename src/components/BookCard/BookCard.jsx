@@ -3,7 +3,7 @@ import {Button, Card, Icon, Image} from "semantic-ui-react";
 import style from './BookCard.module.scss'
 
 const BookCard = book => {
-    const {title, author, price, image, year, rating, addToCart} = book;
+    const {title, author, price, image, year, rating, addToCart, addedCount} = book;
     return (
         <Card color={'red'} href={'#'} className={style.Card}>
             <Image src={image} fluid={true} className={style.CardImg}/>
@@ -39,7 +39,9 @@ const BookCard = book => {
                 </a>
             </Card.Content>
             <Button onClick={addToCart.bind(this, book)} animated={'fade'} color={'olive'}>
-                <Icon name={'plus cart'}/>Добавити в корзину</Button>
+                <Icon name={'plus cart'}/>
+                Добавити в корзину {addedCount > 0 && `(${addedCount})`}
+            </Button>
         </Card>
     );
 };
