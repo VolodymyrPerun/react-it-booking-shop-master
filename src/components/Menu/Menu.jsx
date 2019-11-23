@@ -1,5 +1,6 @@
 import React from 'react';
 import {Menu, Popup, List, Button, Image, Icon} from "semantic-ui-react";
+import style from './Menu.module.scss'
 
 
 const CartComponent = ({title, id, image, removeFromCart}) => (
@@ -19,10 +20,10 @@ const CartComponent = ({title, id, image, removeFromCart}) => (
 const MenuComponent = ({totalPrice, count, items}) => (
     <Menu>
         <Menu.Item name='browse'>
-            <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/Logo.png?raw=true'/>
-            Магазин книг
-        </Menu.Item>
+            <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/Logo.png?raw=true' className={style.logo}/>
 
+        </Menu.Item>
+        Магазин книг
         <Menu.Menu position='right'>
             <Menu.Item name='signup'>
                 Всього: &nbsp; <b>{totalPrice}</b>&nbsp; грн.
