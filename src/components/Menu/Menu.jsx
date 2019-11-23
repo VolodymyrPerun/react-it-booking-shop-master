@@ -19,6 +19,7 @@ const CartComponent = ({title, id, image, removeFromCart}) => (
 const MenuComponent = ({totalPrice, count, items}) => (
     <Menu>
         <Menu.Item name='browse'>
+            <Image src='https://github.com/VolodymyrPerun/react-it-booking-shop-master/blob/master/assets/Logo.png?raw=true'/>
             Магазин книг
         </Menu.Item>
 
